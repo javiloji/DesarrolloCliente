@@ -21,6 +21,8 @@ del ratón, el color de fondo del cuadro de mensaje debe ser amarillo
 (#FFFFCC) y cuando se pulsa una tecla, el color de fondo debe ser azul 
 (#CCE6FF). Al volver a mover el ratón, el color de fondo vuelve a ser blanco.
  * 
+@author Javier Lopera Jimenez
+
  */
 
 function muestraInformacion(mensaje) {
