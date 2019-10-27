@@ -1,0 +1,15 @@
+body {
+    font-family: arial, helvetica;
+}
+
+#info {
+    width: 300px;
+    border: thin solid silver;
+    padding: .5em;
+    position: fixed;
+    
+}
+
+#info h1 {
+    margin: 0;
+}

@@ -1,0 +1,148 @@
+
+body{
+    margin:0;
+}
+
+#cabecera{
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 2%;
+    font-size: 2em;
+    font-family: cursive;
+
+}
+
+#volver{
+    padding: 2%;
+    width: 15%;
+    margin: 0;
+    font-family: cursive;
+
+}
+
+#enlacevolver{
+    text-decoration: none;
+}
+
+#volver>a>div>p{
+    margin: 2%;
+    border: black double 5px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: silver;
+    font-size: 1.5em;
+    color: black;
+
+}
+#volver>a>div>p:hover{
+    color: snow;
+    background-color: #615D5C;
+
+}
+
+#menu{
+    width: 94%;
+    margin: 3%;
+
+}
+
+.submenu{
+    display: inline-block;
+    border: solid 2px black;
+    width: 26%;
+    background-color: white;
+    text-align: center;
+    font-family: cursive;
+    margin: 1%;
+    padding: 2%;
+}
+
+.submenu:hover{
+    
+    background-color: #CCDDFF;
+}
+
+.submenu >div > div{
+    display: none;
+}
+
+.submenu:hover > div >div{
+    display:block;
+
+}
+
+.divsubmenu{
+    text-align: center;
+    padding: 4%;
+    font-size: 2em;
+    
+}
+
+
+
+.submenu1{
+    display: inline-block;
+    border: solid 2px black;
+    width: 40%;
+    font-size: 1em;
+    padding: 1%;
+    margin: 2% auto;
+    background-color: blanchedalmond;
+
+
+}
+
+.submenu1:hover {
+    background-color: slateblue;
+
+}
+
+.submenu1:hover a{
+    background-color: slateblue;
+
+}
+
+.ulsubmenu1{
+    font-size: 20px;
+}
+.enlacesubmenu1{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+footer{
+    background-color: #615D5C;
+    color: snow;
+    font-size: 1.5em;
+    border: solid 2px black;
+    padding: 2%;
+    
+}
+
+#textofooter{
+    text-align: left;
+    font-size: 0.8em;
+    display: inline-block;
+    width: 50%;
+    font-family: cursive;
+
+
+}
+
+#rsfooter{
+    display: inline-block;
+    text-align: right;
+    width: 45%;
+
+}
+
+
+#logosrs{
+    margin-left: 3%;
+    width: 50px;
+    height: 50px;
+}
